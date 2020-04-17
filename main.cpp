@@ -35,7 +35,7 @@ int main(){
   datIn.open(filename.c_str());
   
   datIn >> count;
-  data = new double[count]
+  data = new double[count];
   
   double sum = 0;
   double min,max;
@@ -55,7 +55,7 @@ int main(){
     sum += data[i];
   }
   
-  datIn.close():
+  datIn.close();
   
   double avg = sum / double(count);
   
